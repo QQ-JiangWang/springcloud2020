@@ -4,9 +4,11 @@ import com.wangzaiqq.springcloud.entities.CommonResult;
 import com.wangzaiqq.springcloud.entities.Payment;
 import com.wangzaiqq.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author Wangjiang
